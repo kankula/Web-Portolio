@@ -1,0 +1,78 @@
+.box-profile {
+    width: 450px;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: 80px 20px 50px 20px;
+    background: rgba(255, 255, 255, 0.11);
+    border-radius: 10px;
+    transition: .3s;
+}
+.box-profile:hover {
+    background: rgba(255, 255, 255, 0.089);
+}
+.box-profile .imgPro {
+    position: relative;
+    width: 400px;
+    height: 400px;
+    margin: 20px auto;
+    padding: 10px;
+}
+.box-profile .imgPro img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+}
+.box-profile .profileTitle {
+    position: relative;
+    margin: 20px 30px;
+}
+.box-profile .profileTitle h3 {
+    color: #fff;
+    font-size: 1.7rem;
+}
+.box-profile .profileTitle span {
+    color: deepskyblue;
+    margin-right: 10px;
+}
+
+
+@media (max-width: 1340px) {
+    .box-profile .imgPro {
+        width: 350px;
+        height: 350px;
+    }
+    .box-profile .profileTitle h3 {
+        font-size: 1.5rem;
+    }
+}
+@media (max-width: 1300px) {
+    .box-profile .imgPro {
+        width: 298px;
+        height: 298px;
+    }
+}
+@media (max-width: 1110px) {
+    .box-profile .imgPro {
+        width: 260px;
+        height: 260px;
+    }
+    .box-profile .profileTitle h3 {
+        font-size: 1.2rem;
+    }
+}
+@media (max-width: 1080px) {
+    .box-profile {
+        height: 650px;
+    }
+}
+@media (max-width: 1000px) {
+    .box-profile {
+        height: auto;
+        margin: 80px 20px 0px 20px;
+    }
+}

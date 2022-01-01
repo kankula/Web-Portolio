@@ -116,3 +116,25 @@
     color: #fff;
     background: #30c7ff;
 }
+
+@media (max-width: 1120px) {
+    .skills .box-content .box-item {
+        width: 200px;
+        height: 200px;
+    }
+    .skills .box-content .box-item i {
+        font-size: 9em;
+    }
+    .skills .box h1 {
+        font-size: 3em
+    }
+    .skills .box-content .box-item .skillName {
+        font-size: 1.5rem;
+    }
+}
+@media (max-width: 1120px) {
+    .skills .box-content {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+}

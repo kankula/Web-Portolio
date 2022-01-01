@@ -10,9 +10,9 @@
   position: relative;
   width: 100%;
   height: auto;
-  overflow-y: auto;
 }
 .max-width {
   max-width: 1400px;
   margin: auto;
+  height: 100vh;
 }
