@@ -56,18 +56,21 @@
         height: 298px;
     }
 }
+@media (max-width: 1298px){
+    .box-profile .profileTitle h3 {
+        font-size: 1.2rem;
+    }
+}
 @media (max-width: 1110px) {
     .box-profile .imgPro {
         width: 260px;
         height: 260px;
     }
-    .box-profile .profileTitle h3 {
-        font-size: 1.2rem;
-    }
+    
 }
 @media (max-width: 1080px) {
     .box-profile {
-        height: 650px;
+        height: 575px;
     }
 }
 @media (max-width: 1000px) {

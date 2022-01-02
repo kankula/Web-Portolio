@@ -60,3 +60,11 @@
         font-size: 2em;
     }
 }
+@media (max-width: 650px) {
+    .home .box-content .text-1 {
+        font-size: 1.5em;
+    }
+    .home .box-content .text-2 {
+        font-size: 2.7rem;
+    }
+}

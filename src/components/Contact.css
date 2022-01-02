@@ -84,3 +84,8 @@
         margin: 30px 20px 50px 20px;
     }
 }
+@media (max-width: 650px) {
+    .contact-content {
+        width: 456px;
+    }
+}
