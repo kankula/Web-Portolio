@@ -105,3 +105,45 @@
         top: 125px;    
     }
 }
+@media (max-width: 500px) {
+    .box-educ {
+        width: 415px;
+    }
+    .text-detil h1 {
+        font-size: 1.6rem;
+    }
+    .text-detil h2 {
+        font-size: 1.2rem;
+    }
+    .text-detil {
+    margin-left: 60px;
+    }
+}
+@media (max-width: 425px) {
+    .box-educ {
+        width: 320px;
+    }
+    .text-detil h1 {
+        font-size: 1.3rem;
+    }
+    .text-detil h2 {
+        font-size: 1rem;
+    }
+    .text-detil {
+    margin-left: 60px;
+    }
+}
+@media (max-width: 350px) {
+    .box-educ {
+        width: 270px;
+    }
+    .text-detil h1 {
+        font-size: 1.2rem;
+    }
+    .text-detil h2 {
+        font-size: .94rem;
+    }
+    .text-detil {
+    margin-left: 40px;
+    }
+}

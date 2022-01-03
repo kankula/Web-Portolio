@@ -68,3 +68,36 @@
         font-size: 2.7rem;
     }
 }
+@media (max-width: 570px) {
+    .home .box-content .text-2 {
+        font-size: 2rem;
+    }
+    .home .box-content .text-1 {
+        font-size: 1.2em;
+    }
+    .home .box-content .text-3 {
+        font-size: 1.3em;
+    }
+}
+@media (max-width: 425px) {
+    .home .box-content .text-2 {
+        font-size: 1.6rem;
+    }
+    .home .box-content .text-1 {
+        font-size: 1.2em;
+    }
+    .home .box-content .text-3 {
+        font-size: 1.1em;
+    }
+}
+@media (max-width: 350px) {
+    .home .box-content .text-2 {
+        font-size: 1.4rem;
+    }
+    .home .box-content .text-1 {
+        font-size: 1.2em;
+    }
+    .home .box-content .text-3 {
+        font-size: 1.1em;
+    }
+}

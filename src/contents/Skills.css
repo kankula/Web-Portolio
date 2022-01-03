@@ -138,3 +138,54 @@
         grid-template-columns: 1fr 1fr;
     }
 }
+@media (max-width: 500px) {
+    .skills .box-content .box-item {
+        width: 140px;
+        height: 140px;
+    }
+    .skills .box-content .box-item i {
+        font-size: 7em;
+    }
+    .skills .box-content .box-item:nth-child(1):hover i{
+        font-size: 5rem;
+    }
+    .skills .box-content .box-item:nth-child(2):hover i{
+        font-size: 5rem;
+    }
+    .skills .box-content .box-item:nth-child(3):hover i{
+        font-size: 5rem;
+    }
+    .skills .box-content .box-item:nth-child(4):hover i{
+        font-size: 5rem;
+    }
+    .skills .box-content .box-item .skillName {
+        font-size: 1rem;
+    }
+}
+@media (max-width: 425px) {
+    .skills .box h1 {
+        font-size: 2em;
+    }
+    .skills .box-content .box-item {
+        width: 120px;
+        height: 120px;
+    }
+    .skills .box-content .box-item i {
+        font-size: 6em;
+    }
+    .skills .box-content .box-item:nth-child(1):hover i{
+        font-size: 5rem;
+    }
+    .skills .box-content .box-item:nth-child(2):hover i{
+        font-size: 5rem;
+    }
+    .skills .box-content .box-item:nth-child(3):hover i{
+        font-size: 5rem;
+    }
+    .skills .box-content .box-item:nth-child(4):hover i{
+        font-size: 5rem;
+    }
+    .skills .box-content .box-item .skillName {
+        font-size: 1rem;
+    }
+}

@@ -89,3 +89,18 @@
         width: 456px;
     }
 }
+@media (max-width: 500px) {
+    .contact-content {
+        width: 415px;
+    }
+}
+@media (max-width: 425px) {
+    .contact-content {
+        width: 320px;
+    }
+}
+@media (max-width: 350px) {
+    .contact-content {
+        width: 270px;
+    }
+}
