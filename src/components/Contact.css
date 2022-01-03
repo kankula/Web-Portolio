@@ -8,6 +8,10 @@
     margin: 80px 20px 50px 20px;
     background: rgba(255, 255, 255, 0.11);
     border-radius: 10px;
+    transition: .3s;
+}
+.contact-content:hover {
+    background: rgba(255, 255, 255, 0.089);
 }
 .icon-social {
     display: flex;
